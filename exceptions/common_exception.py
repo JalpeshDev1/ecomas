@@ -16,8 +16,3 @@ class FileNotSupported(Exception):
         self.message = "File not supported. Please try a different PDF"
         super().__init__(self.message)
 
-class AssessmentDoseNotExists(Exception):
-    def __init__(self,status_code):
-        self.status_code=status_code
-        self.message = "Assessment dose not exists."
-        super().__init__(self.message)
