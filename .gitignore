@@ -6,3 +6,4 @@ exceptions/__pycache__
 admin.log
 utility/__pycache__
 *.pyc 
+utility/test_powerbi.py
